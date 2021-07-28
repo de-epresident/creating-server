@@ -5,6 +5,8 @@ const port = 3000;
 
 const userRoute = require("./routes/userRoute");
 
+const db = require('./config/db');
+
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
